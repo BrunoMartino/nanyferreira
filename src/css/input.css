@@ -1,0 +1,49 @@
+@import "@splidejs/splide/dist/css/splide.min.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./home.css";
+@import "./animation.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*utility class for change text-color*/
+.text-color-0 {
+  color: #f6f2ff;
+}
+.text-color-1 {
+  color: #ddd5f3;
+}
+.text-color-2 {
+  color: #baaeda;
+}
+.text-color-3 {
+  color: #685797;
+}
+.text-color-4 {
+  color: #0a041c;
+}
+.splide__pagination__page,
+.splide__pagination__page.is-active {
+  background: #685797;
+}
+
+html,
+body,
+header {
+  overflow-x: hidden;
+}
+
+.cta__btn {
+  @apply bg-[#ddd5f3] py-3 px-5 text-color-4 font-neueKabel font-medium rounded-full uppercase max-w-max hover:text-white hover:bg-[#685797];
+}
+
+/*fix the dropdown menu from header on mobile view*/
+@media (max-width: 768px) {
+  #dropdownNavbar {
+    position: sticky !important;
+    transform: translate3d(0, 0, 0) !important;
+  }
+}

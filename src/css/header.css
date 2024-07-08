@@ -1,0 +1,36 @@
+.header__nav {
+  @apply bg-white border-b border-gray-200 fixed top-0 z-50 w-screen;
+}
+.nav__container {
+  @apply px-3 py-3 lg:px-5 lg:pl-3;
+}
+.nav__wrapper {
+  @apply flex items-center justify-between;
+}
+.menu__btn {
+  @apply flex ms-2 md:me-24;
+}
+/*styles that control the side bar are inline in html from header.php, as it war a flowbite boilerplate, it appears not work properly when styles come from a css archive.*/
+#menu-sidebar__menu {
+  @apply flex flex-col;
+}
+#menu-sidebar__menu li a {
+  @apply flex w-full px-4 py-3 font-neueKabel text-lg font-semibold text-color-3 uppercase;
+}
+#menu-sidebar__menu li a:hover,
+#menu-sidebar__menu li .sub-menu li a:hover,
+#menu-sidebar__menu li .sub-menu li .sub-menu li a:hover {
+  @apply bg-[#ddd5f3] text-color-4;
+}
+.sub-menu {
+  @apply sticky hidden;
+}
+.sub-menu.show__submenu {
+  @apply block;
+}
+#menu-sidebar__menu li .sub-menu li a {
+  @apply text-xs text-gray-500 bg-gray-200;
+}
+#menu-sidebar__menu li .sub-menu li .sub-menu li a {
+  @apply bg-slate-100;
+}

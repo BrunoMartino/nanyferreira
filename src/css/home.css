@@ -1,0 +1,133 @@
+/*Styles for sess1*/
+.banner__wrapper img {
+  @apply h-[90vh] w-screen object-cover object-center;
+}
+/*Styles for sess2*/
+#sess2 {
+  @apply py-12 px-4 bg-[#F6F2FF];
+}
+.mosaic__container {
+  @apply mx-auto grid grid-cols-2 lg:grid-cols-4 container md:max-w-2xl lg:max-w-7xl;
+}
+.mosaic__copy {
+  @apply flex items-start uppercase bg-[#DDD5F3] col-span-1 row-span-1 text-xl  
+  w-[260px] h-[260px] md:w-full md:h-full lg:h-[320px] font-neueKabel font-medium text-color-4;
+}
+.about-box {
+  @apply relative col-span-1 row-span-1 lg:row-span-2 bg-blue-300 max-w-max;
+}
+.about-box img {
+  @apply w-[260px] h-[260px] md:w-[340px] md:h-[340px] lg:h-[640px] object-cover;
+}
+.eyelash-box {
+  @apply relative col-span-1 row-span-1 lg:col-span-2;
+}
+.eyelash-box img {
+  @apply w-[260px] h-[260px] md:w-full lg:w-[640px] md:h-[320px] object-cover;
+}
+.about-box p,
+.eyelash-box p,
+.eyebrow-box p,
+.facial-box p {
+  @apply absolute flex items-center uppercase justify-center text-white text-xl lg:text-3xl top-0 w-full h-full lg:hidden animate-pulse lg:animate-none font-neueKabel;
+  background: rgba(0, 0, 0, 0.2);
+}
+.about-box:hover p,
+.eyelash-box:hover p,
+.eyebrow-box:hover p,
+.facial-box:hover p {
+  @apply lg:flex lg:ease-in-out;
+  transition: 0.5s;
+}
+.eyebrow-box,
+.facial-box {
+  @apply relative;
+}
+.eyebrow-box img,
+.facial-box img {
+  @apply w-[260px] h-[260px] md:w-full md:h-[320px] object-cover;
+}
+/*Styles for sess3*/
+
+.about__wrapper {
+  @apply flex flex-col-reverse lg:flex-row justify-center gap-8 lg:justify-evenly items-center;
+}
+.about__img img {
+  @apply max-w-sm md:max-w-xl lg:max-w-2xl h-full object-cover rounded-full;
+}
+.about__content {
+  @apply max-w-sm md:max-w-xl font-neueKabel flex flex-col;
+}
+.about__content h2 {
+  @apply text-2xl md:text-4xl font-semibold text-color-2 mb-6 md:mb-8 lg:mb-12 animate-pulse;
+}
+.about__content p {
+  @apply mb-3 max-w-prose;
+}
+.about__content .cta__btn {
+  @apply mt-4 md:mt-8;
+}
+/*Styles for sess4 and sess6*/
+#sess4__wrapper,
+#sess6__wrapper {
+  @apply relative h-[35vh] md:h-[50vh] z-20;
+}
+#sess4__wrapper img,
+#sess6__wrapper img {
+  @apply h-[35vh] md:h-[50vh] w-screen object-cover;
+}
+.sess4-parallax,
+.sess6-parallax {
+  @apply absolute top-0 left-0 flex w-full h-full justify-center items-center;
+}
+#sess4__wrapper h3,
+#sess6__wrapper h3 {
+  @apply text-white font-neueKabel font-semibold uppercase text-xl text-center max-w-[256px] lg:max-w-sm;
+}
+
+/*Styles for sess5*/
+#sess5 {
+  @apply py-12 px-4 bg-[#F6F2FF];
+}
+#post__wrapper {
+  @apply container mx-auto flex justify-center pb-10;
+}
+
+.post__item {
+  @apply rounded-2xl max-w-[332px] font-neueKabel bg-gray-50;
+}
+.post_img img {
+  @apply rounded-t-2xl;
+}
+.post_info {
+  @apply px-8 py-4;
+}
+.post_info h4 {
+  @apply text-xl pt-8 pb-3;
+}
+.post_info p {
+  @apply pb-10 border-b-gray-400 border-b-2 text-gray-400;
+}
+.post_cta {
+  @apply text-xl text-color-3 text-center capitalize pb-4;
+}
+/*Styles for sess7 and sess8*/
+#sess7 {
+  @apply pt-12 pb-24 px-4 bg-[#F6F2FF];
+}
+.sess7__title,
+.sess8__title {
+  @apply font-neueKabel mt-10 font-medium text-4xl text-color-3 text-center uppercase;
+}
+.social__wrapper {
+  @apply container mx-auto mt-8 bg-gray-50 py-12 px-8 flex flex-col justify-center items-center;
+}
+.social__wrapper .cta__btn {
+  @apply animate-bounce;
+}
+#sess8 {
+  @apply pt-12 pb-24 px-4 flex flex-col justify-center items-center container mx-auto;
+}
+.sess8__title {
+  @apply max-w-2xl mb-10 text-center animate-pulse;
+}
