@@ -1,5 +1,6 @@
 import Splide from "@splidejs/splide";
 
+/* control slides in Home Page */
 const homeSlide = document.getElementById("banner__slide");
 
 if (homeSlide) {
@@ -35,4 +36,33 @@ if (postSlide) {
     },
   });
   posts.mount();
+}
+/* control slides in About Page */
+
+const photoSlide = document.getElementById("sess3__photos");
+
+if (photoSlide) {
+  const photos = new Splide(photoSlide, {
+    type: "loop",
+    rewind: true,
+    arrows: false,
+    pagination: true,
+    autoplay: true,
+    perPage: 4,
+    perMove: 1,
+    gap: "2rem",
+    breakpoints: {
+      960: {
+        perPage: 3,
+      },
+      768: {
+        perPage: 2,
+      },
+      600: {
+        perPage: 1,
+        gap: 0,
+      },
+    },
+  });
+  photos.mount();
 }

@@ -1,5 +1,5 @@
 import "flowbite";
-import "./modules/homeSlide.js";
+import "./modules/pageSlide.js";
 import "./modules/parallaxSection.js";
 import AnimaScroll from "./modules/animaScroll.js";
 
