@@ -75,3 +75,38 @@
 .accordion-body {
   @apply bg-[#f6f2ff] text-color-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-4 px-8 lg:place-items-center text-lg rounded-b-3xl mb-5;
 }
+/*Styles for sess5*/
+
+#sess5__about {
+  @apply bg-[#F6F2FF] py-20;
+}
+.about__mosaic-container {
+  @apply container mx-auto grid grid-cols-2 md:grid-cols-4 gap-5 max-w-7xl px-8;
+}
+.mosaic__grid {
+  @apply grid gap-5 max-w-max;
+}
+.mosaic__img-1 img {
+  @apply w-[360px] h-[450px] object-cover rounded-lg animate-pulse lg:animate-none;
+}
+.mosaic__img-4 img {
+  @apply w-[360px] h-[260px] object-cover rounded-lg;
+}
+.mosaic__img-2 img {
+  @apply w-[720px] h-[350px] object-cover rounded-lg;
+}
+.mosaic__img-5 img {
+  @apply w-[720px] h-[260px] md:h-[360px] object-cover animate-pulse lg:animate-none rounded-lg;
+}
+.mosaic__img-3 img {
+  @apply w-[360px] h-[360px] md:h-[260px] object-cover rounded-lg;
+}
+.mosaic__img-6 img {
+  @apply w-[360px] h-[260px] md:h-[450px] object-cover animate-pulse lg:animate-none rounded-lg;
+}
+#sess6__about {
+  @apply pt-12 pb-24 px-4 flex flex-col justify-center items-center container mx-auto;
+}
+.sess6__about-title {
+  @apply max-w-2xl mb-10 text-center animate-pulse font-neueKabel mt-10 font-medium text-4xl text-color-3 text-center uppercase;
+}

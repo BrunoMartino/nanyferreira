@@ -1,20 +1,30 @@
 .mosaic__container,
 .about__img,
 .about__content,
-.social__wrapper {
+.social__wrapper,
+.sess2__about-img,
+.sess2__about-content,
+.sess3__about-title,
+.accordion__wrapper,
+.about__mosaic-container {
   transition: ease-in-out 0.6s;
   opacity: 0;
 }
-.mosaic__container.onShow {
+.mosaic__container.onShow,
+.about__mosaic-container.onShow {
   animation: show-left 0.8s forwards;
 }
-.about__content.onShow {
+.about__content.onShow,
+.sess2__about-content.onShow,
+.accordion__wrapper.onShow {
   animation: show-right 0.8s forwards;
 }
-.about__img.onShow {
+.about__img.onShow,
+.sess2__about-img.onShow {
   animation: fall 1s forwards;
 }
-.social__wrapper.onShow {
+.social__wrapper.onShow,
+.sess3__about-title.onShow {
   animation: show-up 0.8s forwards;
 }
 @keyframes show-right {

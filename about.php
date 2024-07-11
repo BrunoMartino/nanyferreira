@@ -34,7 +34,7 @@ $makeups = get_field('lista_servico_6');
 </section>
 <section id="sess3__about">
   <div class="sess3__content-wrapper">
-    <h2><?= the_field('titulo_2')  ?></h2>
+    <h2 class="sess3__about-title" data-anima="scroll"><?= the_field('titulo_2')  ?></h2>
     <div id="sess3__photos" class="splide py-12">
       <div class="splide__track ">
         <ul class="splide__list ">
@@ -55,7 +55,7 @@ $makeups = get_field('lista_servico_6');
   </div>
 </section>
 <section id="sess4__about">
-  <div class="accordion__wrapper">
+  <div class="accordion__wrapper" data-anima="scroll">
     <h2 class="services__titles"><?= the_field('titulo_3')?></h2>
     <div id="accordion-open-1" data-accordion="open" class="container mx-auto px-8">
     <h2 id="accordion-open-heading-1">
@@ -77,7 +77,6 @@ $makeups = get_field('lista_servico_6');
         </div>
     </div>
 </div>
-
 <div id="accordion-open-2" data-accordion="open" class="container mx-auto px-8">
     <h2 id="accordion-open-heading-2">
         <button type="button" class="accordion-title" data-accordion-target="#accordion-open-body-2" aria-expanded="false" aria-controls="accordion-open-body-2">
@@ -182,8 +181,45 @@ $makeups = get_field('lista_servico_6');
         </div>
     </div>
 </div>
-
   </div>
+</section>
+<section id="sess5__about">
+<div class="about__mosaic-container" data-anima="scroll">
+    <div class="mosaic__grid">
+        <div class="mosaic__img-1">
+            <img  src="<?= the_field('imagem_1')?>" alt="">
+        </div>
+        <div class="mosaic__img-4">
+            <img  src="<?= the_field('imagem_4')?>" alt="">
+        </div>
+        <div class="mosaic__img-6 md:hidden">
+            <img src="<?= the_field('imagem_6')?>" alt="">
+        </div>
+    </div>
+    <div class="mosaic__grid md:col-span-2">
+        <div class="mosaic__img-2">
+            <img  src="<?= the_field('imagem_3')?>" alt="">
+        </div>
+        <div class="mosaic__img-5">
+            <img src="<?= the_field('imagem_5')?>" alt="">
+        </div>
+        <div class="mosaic__img-3 md:hidden">
+            <img src="<?= the_field('imagem_2')?>" alt="">
+        </div>
+    </div>
+    <div class="mosaic__grid hidden md:grid">
+        <div class="mosaic__img-3">
+            <img src="<?= the_field('imagem_2')?>" alt="">
+        </div>
+        <div class="mosaic__img-6">
+            <img src="<?= the_field('imagem_6')?>" alt="">
+        </div>
+    </div>
+</div>
+</section>
+<section id="sess6__about">
+    <h2 class="sess6__about-title"><?= the_field('titulo_4')?></h2>
+    <a href="<?= the_field('cta_link_2')?>" class="cta__btn"><?= the_field('cta_2')?></a>
 </section>
 
 
