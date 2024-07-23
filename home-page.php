@@ -22,10 +22,12 @@ $data['posts'] = format_posts(get_field("blogposts_home"));
 </section>
 <section id="sess2">
    <div class="mosaic__container" data-anima="scroll">
-        <div class="mosaic__copy">
-          <p class="pl-8 pt-8"><?= the_field('mosaico_copy_1')?></p>
+   <div class="eyebrow-box">
+        <a href="<?= the_field('link_5') ?>">
+          <img src="<?= the_field('imagem_5') ?>" alt="<?= the_field('cta_5') ?>">
+          <p><?= the_field('cta_5') ?></p>
+          </a>
         </div>
-        
         <div class="about-box">
           <a href="<?= the_field('link_1') ?>">
           <img src="<?= the_field('imagem_1') ?>" alt="<?= the_field('cta_1') ?>">
@@ -44,8 +46,11 @@ $data['posts'] = format_posts(get_field("blogposts_home"));
           <p><?= the_field('cta_2') ?></p>
           </a>
         </div>
-        <div class="mosaic__copy">
-          <p class="pl-8 pt-8"><?= the_field('mosaico_copy_2')?></p>
+        <div class="eyebrow-box">
+        <a href="<?= the_field('link_6') ?>">
+          <img src="<?= the_field('imagem_6') ?>" alt="<?= the_field('cta_6') ?>">
+          <p><?= the_field('cta_6') ?></p>
+          </a>
         </div>
         <div class="eyebrow-box">
         <a href="<?= the_field('link_4') ?>">

@@ -18,7 +18,9 @@
   @apply flex w-full px-4 py-3 font-neueKabel text-lg font-semibold text-color-2 uppercase;
 }
 #menu-sidebar__menu li a:hover,
+#menu-sidebar__menu li a:focus,
 #menu-sidebar__menu li .sub-menu li a:hover,
+#menu-sidebar__menu li .sub-menu li a:focus,
 #menu-sidebar__menu li .sub-menu li .sub-menu li a:hover {
   @apply bg-color-1 text-color-4;
 }
@@ -29,8 +31,8 @@
   @apply block;
 }
 #menu-sidebar__menu li .sub-menu li a {
-  @apply text-xs text-gray-500 bg-color-2;
+  @apply text-sm pl-8 text-color-2 bg-color-2;
 }
 #menu-sidebar__menu li .sub-menu li .sub-menu li a {
-  @apply bg-slate-100;
+  @apply bg-gray-100 text-gray-400 text-sm;
 }
