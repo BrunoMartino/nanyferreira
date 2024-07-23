@@ -33,7 +33,7 @@
 /*control sess3 styles in services template*/
 
 #sess3__services {
-  background: linear-gradient(to bottom, #fff 25%, #ddd5f3 25%);
+  background: linear-gradient(to bottom, #fff 15%, #ddd5f3 15%);
   @apply mt-20;
 }
 @media (max-width: 960px) {
@@ -43,10 +43,10 @@
   }
 }
 .sess3__services-wrapper {
-  @apply container mx-auto flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-16 px-8 pb-20;
+  @apply container mx-auto flex flex-col lg:flex-row items-start justify-center gap-10 lg:gap-16 px-8 pb-20;
 }
 .sess3__services-wrapper__img img {
-  @apply w-[320px] h-[320px] md:w-[480px] md:h-[480px] object-cover;
+  @apply w-[320px] h-[320px] md:w-[480px] md:h-[480px] object-cover self-start;
 }
 .sess3__services-wrapper__content {
   @apply text-xl md:text-2xl font-neueKabel max-w-lg text-color-4;
@@ -57,7 +57,7 @@
 
 /*control sess4 styles in services template*/
 #sess4__services {
-  @apply mt-20;
+  @apply py-20;
 }
 .services__mosaic-container {
   @apply container mx-auto grid grid-cols-2 md:grid-cols-4 gap-5 max-w-7xl px-8;
@@ -71,13 +71,13 @@
   @apply container mx-auto lg:max-w-7xl;
 }
 .sess5__services-wrapper h2 {
-  @apply uppercase font-neueKabel font-semibold text-center text-2xl md:text-4xl text-color-2 mb-16;
+  @apply uppercase font-neueKabel font-semibold text-center text-2xl md:text-4xl text-color-2 mb-16 animate-pulse;
 }
 .testimonial__wrapper {
   @apply flex flex-col items-center justify-center;
 }
 .testimonial__content {
-  @apply w-[260px] h-[300px] flex flex-col justify-start items-center bg-white rounded-xl p-4 font-neueKabel text-center gap-6 relative;
+  @apply w-[260px] h-[400px] flex flex-col justify-start items-center bg-white rounded-xl p-4 font-neueKabel text-center gap-6 relative;
 }
 .testimonial__wrapper h3 {
   @apply mt-10 font-bold capitalize font-neueKabel;
@@ -87,7 +87,7 @@
 }
 /*control sess6 styles in services template*/
 #sess6__services {
-  @apply py-20 bg-color-2;
+  @apply pb-20 bg-color-2;
 }
 .sess6__services-wrapper {
   @apply bg-white container mx-auto rounded-3xl lg:max-w-6xl px-8 lg:px-24;
@@ -99,7 +99,7 @@
   @apply border-y-2 border-y-gray-200 flex flex-col md:flex-row justify-between items-center pt-10 pb-12;
 }
 .sess6__services-content h3 {
-  @apply uppercase font-neueKabel font-semibold text-center text-4xl text-color-2 mb-6 md:mb-0;
+  @apply uppercase font-neueKabel font-semibold text-center text-4xl text-color-2 mb-6 md:mb-0 animate-pulse;
 }
 .sess6__services-content p {
   @apply max-w-md text-center md:text-left;
@@ -109,6 +109,9 @@
 }
 .sess6__services-cta p {
   @apply uppercase font-neueKabel font-semibold text-center text-xl md:text-3xl text-color-2;
+}
+.sess6__services-cta a {
+  @apply animate-bounce;
 }
 /*control sess7 styles in services template*/
 #sess7__services {
@@ -131,4 +134,7 @@
 /*control sess8 styles in services template*/
 #sess8__services {
   @apply container mx-auto pt-10 pb-20 flex justify-center;
+}
+#sess8__services a {
+  @apply animate-bounce;
 }

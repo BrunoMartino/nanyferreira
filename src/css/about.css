@@ -26,13 +26,13 @@
 }
 /*Styles for sess3*/
 #sess3__about {
-  @apply py-20 bg-[#F6F2FF];
+  @apply py-20;
 }
 .sess3__content-wrapper {
   @apply container mx-auto;
 }
 .sess3__content-wrapper h2 {
-  @apply text-2xl md:text-4xl font-semibold  font-neueKabel text-center text-color-3 mb-6 md:mb-8;
+  @apply text-2xl md:text-4xl font-semibold  font-neueKabel text-center text-color-2 mb-6 md:mb-8;
 }
 
 .photo__wrapper {
@@ -49,13 +49,13 @@
 }
 /*Styles for sess4*/
 #sess4__about {
-  @apply bg-[#685797] py-20 font-neueKabel;
+  @apply bg-color-2 py-20 font-neueKabel;
 }
 .accordion__wrapper {
   @apply container mx-auto flex flex-col justify-center items-center gap-5;
 }
 .services__titles {
-  @apply text-2xl md:text-4xl font-semibold  font-neueKabel text-center text-color-0 mb-6 md:mb-8;
+  @apply text-2xl md:text-4xl font-semibold  font-neueKabel text-center text-color-2 mb-6 md:mb-8;
 }
 #sess4__about .accordion-title {
   @apply flex items-center justify-between w-full p-5 font-medium rounded-t-3xl;
@@ -66,12 +66,12 @@
   @apply text-lg md:text-2xl;
 }
 #sess4__about .accordion-body {
-  @apply bg-[#f6f2ff] text-color-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-4 px-8 lg:place-items-center text-lg rounded-b-3xl mb-5;
+  @apply bg-white text-color-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-4 px-8 lg:place-items-center text-lg rounded-b-3xl mb-5;
 }
 /*Styles for sess5*/
 
 #sess5__about {
-  @apply bg-[#F6F2FF] py-20;
+  @apply bg-color-1 py-20;
 }
 .about__mosaic-container {
   @apply container mx-auto grid grid-cols-2 md:grid-cols-4 gap-5 max-w-7xl px-8;

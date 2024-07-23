@@ -4,13 +4,13 @@
 }
 /*Styles for sess2*/
 #sess2 {
-  @apply py-12 px-4 bg-[#F6F2FF];
+  @apply py-12 px-4 bg-color-2;
 }
 .mosaic__container {
   @apply mx-auto grid grid-cols-2 lg:grid-cols-4 container md:max-w-2xl lg:max-w-7xl;
 }
 .mosaic__copy {
-  @apply flex items-start uppercase bg-[#DDD5F3] col-span-1 row-span-1 text-xl  
+  @apply flex items-start uppercase bg-color-1 col-span-1 row-span-1 text-xl  
   w-[260px] h-[260px] md:w-full md:h-full lg:h-[320px] font-neueKabel font-medium text-color-4;
 }
 .about-box {
@@ -87,7 +87,7 @@
 
 /*Styles for sess5*/
 #sess5 {
-  @apply py-12 px-4 bg-[#F6F2FF];
+  @apply py-12 px-4 bg-color-1;
 }
 #post__wrapper {
   @apply container mx-auto flex justify-center pb-10;
@@ -113,11 +113,11 @@
 }
 /*Styles for sess7 and sess8*/
 #sess7 {
-  @apply pt-12 pb-24 px-4 bg-[#F6F2FF];
+  @apply pt-12 pb-24 px-4 bg-color-1;
 }
 .sess7__title,
 .sess8__title {
-  @apply font-neueKabel mt-10 font-medium text-4xl text-color-3 text-center uppercase;
+  @apply font-neueKabel mt-10 font-medium text-4xl text-color-4 text-center uppercase;
 }
 .social__wrapper {
   @apply container mx-auto mt-8 bg-gray-50 py-12 px-8 flex flex-col justify-center items-center;

@@ -19,12 +19,12 @@ $faq = get_field('faq')
     <div class="services__title"><h1><?= get_the_title($post_id) ?></h1></div>
   </section>
   <section id="sess2__services">
-    <h2><?= the_field('titulo') ?></h2>
+    <h2 data-anima="scroll"><?= the_field('titulo') ?></h2>
     <div class="sess2__services-wrapper">
-      <div class="sess2__services-wrapper__img">
+      <div class="sess2__services-wrapper__img" data-anima="scroll">
         <img src="<?= the_field('foto_sess_1') ?>" alt="<?= the_field('titulo') ?>">
       </div>
-      <div class="sess2__services-wrapper__content">
+      <div class="sess2__services-wrapper__content" data-anima="scroll">
         <p><?= the_field('descricao_1') ?></p>
         <a class="cta__btn" href="<?= the_field('cta_link') ?>"><?= the_field('cta_1') ?></a>
       </div>
@@ -32,17 +32,17 @@ $faq = get_field('faq')
   </section>
   <section id="sess3__services">
     <div class="sess3__services-wrapper">
-      <div class="sess3__services-wrapper__content">
+      <div class="sess3__services-wrapper__content" data-anima="scroll">
         <h2><?= the_field('titulo2') ?></h2>
         <p><?= the_field('descricao_2') ?></p>
       </div>
-      <div class="sess3__services-wrapper__img">
+      <div class="sess3__services-wrapper__img" data-anima="scroll">
         <img src="<?= the_field('foto_sess_2') ?>" alt="<?= the_field('titulo2') ?>">
       </div>
     </div>
   </section>
   <section id="sess4__services">
-    <div class="services__mosaic-container">
+    <div class="services__mosaic-container" data-anima="scroll">
     <div class="mosaic__grid">
         <div class="mosaic__img-1">
             <img  src="<?= the_field('mosaico_1')?>" alt="">
@@ -112,7 +112,7 @@ $faq = get_field('faq')
     </div>
   </section>
   <section id="sess7__services">
-    <div class="sess7__services-wrapper">
+    <div class="sess7__services-wrapper" data-anima="scroll">
       <h2><?= the_field('titulo_faq')?></h2>
       <?php foreach($faq as $index => $question) { ?>
         <div id="accordion-open-<?= $index ?>" data-accordion="open" class="container mx-auto px-8">

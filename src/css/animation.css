@@ -6,25 +6,39 @@
 .sess2__about-content,
 .sess3__about-title,
 .accordion__wrapper,
-.about__mosaic-container {
+.about__mosaic-container,
+#sess2__services h2,
+.sess2__services-wrapper__img,
+.sess2__services-wrapper__content,
+.sess3__services-wrapper__content,
+.sess3__services-wrapper__img,
+.services__mosaic-container,
+.sess7__services-wrapper {
   transition: ease-in-out 0.6s;
   opacity: 0;
 }
 .mosaic__container.onShow,
-.about__mosaic-container.onShow {
+.about__mosaic-container.onShow,
+.sess2__services-wrapper__img.onShow,
+.sess3__services-wrapper__content.onShow {
   animation: show-left 0.8s forwards;
 }
 .about__content.onShow,
 .sess2__about-content.onShow,
-.accordion__wrapper.onShow {
+.accordion__wrapper.onShow,
+.sess2__services-wrapper__content.onShow,
+.services__mosaic-container {
   animation: show-right 0.8s forwards;
 }
 .about__img.onShow,
-.sess2__about-img.onShow {
+.sess2__about-img.onShow,
+.sess3__services-wrapper__img.onShow {
   animation: fall 1s forwards;
 }
 .social__wrapper.onShow,
-.sess3__about-title.onShow {
+.sess3__about-title.onShow,
+#sess2__services h2.onShow,
+.sess7__services-wrapper.onShow {
   animation: show-up 0.8s forwards;
 }
 @keyframes show-right {
