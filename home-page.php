@@ -45,7 +45,7 @@ $data['posts'] = format_posts(get_field("blogposts_home"));
           </a>
         </div>
         <div class="mosaic__copy">
-          <p class="text-right w-full pr-8 pt-8"><?= the_field('mosaico_copy_2')?></p>
+          <p class="pl-8 pt-8"><?= the_field('mosaico_copy_2')?></p>
         </div>
         <div class="eyebrow-box">
         <a href="<?= the_field('link_4') ?>">

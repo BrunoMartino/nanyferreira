@@ -15,12 +15,12 @@
   @apply flex flex-col;
 }
 #menu-sidebar__menu li a {
-  @apply flex w-full px-4 py-3 font-neueKabel text-lg font-semibold text-color-3 uppercase;
+  @apply flex w-full px-4 py-3 font-neueKabel text-lg font-semibold text-color-2 uppercase;
 }
 #menu-sidebar__menu li a:hover,
 #menu-sidebar__menu li .sub-menu li a:hover,
 #menu-sidebar__menu li .sub-menu li .sub-menu li a:hover {
-  @apply bg-[#ddd5f3] text-color-4;
+  @apply bg-color-1 text-color-4;
 }
 .sub-menu {
   @apply sticky hidden;
@@ -29,7 +29,7 @@
   @apply block;
 }
 #menu-sidebar__menu li .sub-menu li a {
-  @apply text-xs text-gray-500 bg-gray-200;
+  @apply text-xs text-gray-500 bg-color-2;
 }
 #menu-sidebar__menu li .sub-menu li .sub-menu li a {
   @apply bg-slate-100;
