@@ -1,17 +1,17 @@
 #sess__map {
-  @apply bg-[#685797] py-12 mb-12;
+  @apply bg-color-3 py-12;
 }
 .map__wrapper {
   @apply container mx-auto flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20 font-neueKabel px-8;
 }
 .address__info h4 {
-  @apply text-2xl max-w-sm md:text-3xl lg:text-4xl text-color-0 md:max-w-lg uppercase font-bold mb-3;
+  @apply text-2xl max-w-sm md:text-3xl lg:text-4xl text-white md:max-w-lg uppercase font-bold mb-3;
 }
 .address__info p {
-  @apply text-lg text-color-0 max-w-sm  md:max-w-md lg:max-w-lg mt-1;
+  @apply text-lg text-white max-w-sm  md:max-w-md lg:max-w-lg mt-1;
 }
 .map__link {
-  @apply flex items-center uppercase text-color-0 mb-3 gap-2;
+  @apply flex items-center uppercase text-white mb-3 gap-2;
 }
 .map {
   @apply rounded-3xl max-w-sm md:max-w-md h-[250px];

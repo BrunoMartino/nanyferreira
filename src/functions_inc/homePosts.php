@@ -1,5 +1,4 @@
 <?php
-
 function format_posts ($posts, $img_size = 'large') {
   $posts_final = [];
   foreach($posts as $post) {

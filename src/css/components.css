@@ -1,0 +1,67 @@
+/*utility class for change text-color*/
+.text-color-0 {
+  color: #f6f2ff;
+}
+.text-color-1 {
+  color: #ddd5f3;
+}
+.text-color-2 {
+  color: #baaeda;
+}
+.text-color-3 {
+  color: #685797;
+}
+.text-color-4 {
+  color: #0a041c;
+}
+/*utility class for change background color*/
+.bg-color-1 {
+  background-color: #ddd5f3;
+}
+.bg-color-2 {
+  background-color: #f1f1f4;
+}
+.bg-color-3 {
+  background-color: #b9b2b1;
+}
+.bg-color-4 {
+  background-color: #000;
+}
+/*controls pagination in splide*/
+.splide__pagination__page,
+.splide__pagination__page.is-active {
+  background: #685797;
+}
+/*reusable class for cta button*/
+.cta__btn {
+  @apply bg-[#ddd5f3] py-3 px-5 text-color-4 font-neueKabel font-medium rounded-full uppercase max-w-max hover:text-white hover:bg-[#685797];
+}
+/*reusable styles for heart icon*/
+.heart__wrapper {
+  @apply absolute bg-color-1 w-9 h-9 rounded-full flex items-center justify-center bottom-5 mx-auto;
+}
+.heart__wrapper img {
+  @apply w-6 h-6 text-color-1;
+}
+/*grid rules for all mosaics imgs*/
+.mosaic__grid {
+  @apply grid gap-5 max-w-max; /*here control for all mosaics in website*/
+}
+.mosaic__img-1 img {
+  @apply w-[360px] h-[450px] object-cover rounded-lg animate-pulse lg:animate-none;
+}
+.mosaic__img-4 img {
+  @apply w-[360px] h-[260px] object-cover rounded-lg;
+}
+.mosaic__img-2 img {
+  @apply w-[720px] h-[350px] object-cover rounded-lg;
+}
+.mosaic__img-5 img {
+  @apply w-[720px] h-[260px] md:h-[360px] object-cover animate-pulse lg:animate-none rounded-lg;
+}
+.mosaic__img-3 img {
+  @apply w-[360px] h-[360px] md:h-[260px] object-cover rounded-lg;
+}
+.mosaic__img-6 img {
+  @apply w-[360px] h-[260px] md:h-[450px] object-cover animate-pulse lg:animate-none rounded-lg;
+}

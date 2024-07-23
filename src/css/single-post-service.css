@@ -1,0 +1,134 @@
+/*control banner in services template*/
+#sess1__services {
+  @apply w-screen h-[75vh];
+}
+.services__title {
+  @apply container mx-auto text-4xl font-neueKabel font-bold uppercase flex h-full items-center;
+}
+.services__title h1 {
+  @apply text-color-4 bg-color-1 py-3 px-6 rounded-full ml-8;
+}
+/*control sess2 styles in services template*/
+#sess2__services {
+  @apply flex flex-col items-center mt-20;
+}
+#sess2__services h2 {
+  @apply font-neueKabel text-2xl md:text-4xl font-semibold pb-20 text-color-2;
+}
+.sess2__services-wrapper {
+  @apply container mx-auto flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-16 px-8;
+}
+.sess2__services-wrapper__img img {
+  @apply w-[320px] h-[320px] md:w-[480px] md:h-[480px] object-cover;
+}
+.sess2__services-wrapper__content {
+  @apply text-xl md:text-2xl font-neueKabel max-w-lg;
+}
+.sess2__services-wrapper__content p {
+  @apply mb-8;
+}
+.sess2__services-wrapper__content a {
+  @apply mt-8;
+}
+/*control sess3 styles in services template*/
+
+#sess3__services {
+  background: linear-gradient(to bottom, #fff 25%, #ddd5f3 25%);
+  @apply mt-20;
+}
+@media (max-width: 960px) {
+  #sess3__services {
+    background: linear-gradient(to bottom, #ddd5f3 85%, #fff 85%);
+    @apply mt-20 pt-8;
+  }
+}
+.sess3__services-wrapper {
+  @apply container mx-auto flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-16 px-8 pb-20;
+}
+.sess3__services-wrapper__img img {
+  @apply w-[320px] h-[320px] md:w-[480px] md:h-[480px] object-cover;
+}
+.sess3__services-wrapper__content {
+  @apply text-xl md:text-2xl font-neueKabel max-w-lg text-color-4;
+}
+.sess3__services-wrapper__content h2 {
+  @apply lg:pt-36 mb-10 font-semibold uppercase;
+}
+
+/*control sess4 styles in services template*/
+#sess4__services {
+  @apply mt-20;
+}
+.services__mosaic-container {
+  @apply container mx-auto grid grid-cols-2 md:grid-cols-4 gap-5 max-w-7xl px-8;
+}
+/*for control the images style view reusable mosaic in components.css archive*/
+/*control sess5 styles in services template*/
+#sess5__services {
+  @apply py-20 bg-color-2;
+}
+.sess5__services-wrapper {
+  @apply container mx-auto lg:max-w-7xl;
+}
+.sess5__services-wrapper h2 {
+  @apply uppercase font-neueKabel font-semibold text-center text-2xl md:text-4xl text-color-2 mb-16;
+}
+.testimonial__wrapper {
+  @apply flex flex-col items-center justify-center;
+}
+.testimonial__content {
+  @apply w-[260px] h-[300px] flex flex-col justify-start items-center bg-white rounded-xl p-4 font-neueKabel text-center gap-6 relative;
+}
+.testimonial__wrapper h3 {
+  @apply mt-10 font-bold capitalize font-neueKabel;
+}
+.testimonial__content .heart__wrapper {
+  @apply -bottom-4;
+}
+/*control sess6 styles in services template*/
+#sess6__services {
+  @apply py-20 bg-color-2;
+}
+.sess6__services-wrapper {
+  @apply bg-white container mx-auto rounded-3xl lg:max-w-6xl px-8 lg:px-24;
+}
+.sess6__services-wrapper h2 {
+  @apply uppercase font-neueKabel font-light text-center text-2xl md:text-4xl text-color-2 py-8;
+}
+.sess6__services-content {
+  @apply border-y-2 border-y-gray-200 flex flex-col md:flex-row justify-between items-center pt-10 pb-12;
+}
+.sess6__services-content h3 {
+  @apply uppercase font-neueKabel font-semibold text-center text-4xl text-color-2 mb-6 md:mb-0;
+}
+.sess6__services-content p {
+  @apply max-w-md text-center md:text-left;
+}
+.sess6__services-cta {
+  @apply flex justify-between items-center pt-8 pb-12;
+}
+.sess6__services-cta p {
+  @apply uppercase font-neueKabel font-semibold text-center text-xl md:text-3xl text-color-2;
+}
+/*control sess7 styles in services template*/
+#sess7__services {
+  @apply pt-20;
+}
+.sess7__services-wrapper {
+  @apply container mx-auto max-w-6xl px-8;
+}
+.sess7__services-wrapper h2:first-child {
+  @apply uppercase font-neueKabel font-bold text-center text-2xl md:text-4xl text-color-2 py-8;
+}
+#sess7__services .accordion-title {
+  @apply flex items-center justify-between w-full p-5 rounded-3xl text-xl font-normal capitalize font-neueKabel mb-8;
+  background-color: #ddd5f3 !important;
+  color: #0a041c !important;
+}
+#sess7__services .accordion-body {
+  @apply bg-color-2 text-color-4 px-8 py-4 my-4;
+}
+/*control sess8 styles in services template*/
+#sess8__services {
+  @apply container mx-auto pt-10 pb-20 flex justify-center;
+}

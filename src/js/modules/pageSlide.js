@@ -66,3 +66,32 @@ if (photoSlide) {
   });
   photos.mount();
 }
+
+const testimonialSlide = document.getElementById("testmonial__slide");
+
+if (testimonialSlide) {
+  const testimonial = new Splide(testimonialSlide, {
+    type: "loop",
+    rewind: true,
+    arrows: false,
+    pagination: false,
+    autoplay: true,
+    perPage: 4,
+    perMove: 1,
+    gap: "2rem",
+    breakpoints: {
+      960: {
+        perPage: 3,
+        pagination: true,
+      },
+      768: {
+        perPage: 2,
+      },
+      600: {
+        perPage: 1,
+        gap: 0,
+      },
+    },
+  });
+  testimonial.mount();
+}

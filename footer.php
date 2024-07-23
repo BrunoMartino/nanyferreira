@@ -21,7 +21,7 @@
 </section>
 <footer>
 <div class="footer__wrapper">
-  <img src="<?= $img_url . './logo-footer.png' ?>" alt="logo" class="footer__logo">
+  <img src="<?= $img_url . '/logo-footer.png' ?>" alt="logo" class="footer__logo">
   <?php
         wp_nav_menu([
         'menu'=> 'menu__footer',
@@ -43,7 +43,7 @@
   </div>
   <div class="news__form">
     <div class="news__title">
-      <img src="<?= $img_url . './mail.svg' ?>" alt="icone de mensagem">
+      <img src="<?= $img_url . '/mail.svg' ?>" alt="icone de mensagem">
       <h5>fique por dentro do que acontece por aqui</h5>
     </div>
     <p>Assine nossa newsletter e</p>

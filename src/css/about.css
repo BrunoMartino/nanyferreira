@@ -41,13 +41,6 @@
 .photo__wrapper img {
   @apply object-cover w-[280px] h-[280px];
 }
-.heart__wrapper {
-  @apply absolute bg-[#685797] w-9 h-9 rounded-full flex items-center justify-center bottom-5 left-1/3;
-}
-.heart__wrapper img {
-  @apply w-6 h-6 text-color-1;
-}
-
 .sess3__about-text {
   @apply flex justify-center px-8 font-neueKabel;
 }
@@ -64,15 +57,15 @@
 .services__titles {
   @apply text-2xl md:text-4xl font-semibold  font-neueKabel text-center text-color-0 mb-6 md:mb-8;
 }
-.accordion-title {
+#sess4__about .accordion-title {
   @apply flex items-center justify-between w-full p-5 font-medium rounded-t-3xl;
   background-color: #ddd5f3 !important;
   color: #0a041c !important;
 }
-.accordion-title span {
+#sess4__about .accordion-title span {
   @apply text-lg md:text-2xl;
 }
-.accordion-body {
+#sess4__about .accordion-body {
   @apply bg-[#f6f2ff] text-color-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-4 px-8 lg:place-items-center text-lg rounded-b-3xl mb-5;
 }
 /*Styles for sess5*/
@@ -83,30 +76,12 @@
 .about__mosaic-container {
   @apply container mx-auto grid grid-cols-2 md:grid-cols-4 gap-5 max-w-7xl px-8;
 }
-.mosaic__grid {
-  @apply grid gap-5 max-w-max;
-}
-.mosaic__img-1 img {
-  @apply w-[360px] h-[450px] object-cover rounded-lg animate-pulse lg:animate-none;
-}
-.mosaic__img-4 img {
-  @apply w-[360px] h-[260px] object-cover rounded-lg;
-}
-.mosaic__img-2 img {
-  @apply w-[720px] h-[350px] object-cover rounded-lg;
-}
-.mosaic__img-5 img {
-  @apply w-[720px] h-[260px] md:h-[360px] object-cover animate-pulse lg:animate-none rounded-lg;
-}
-.mosaic__img-3 img {
-  @apply w-[360px] h-[360px] md:h-[260px] object-cover rounded-lg;
-}
-.mosaic__img-6 img {
-  @apply w-[360px] h-[260px] md:h-[450px] object-cover animate-pulse lg:animate-none rounded-lg;
-}
+
+/*for control the images style view reusable mosaic in components.css archive*/
+/*Styles for sess6*/
 #sess6__about {
   @apply pt-12 pb-24 px-4 flex flex-col justify-center items-center container mx-auto;
 }
 .sess6__about-title {
-  @apply max-w-2xl mb-10 text-center animate-pulse font-neueKabel mt-10 font-medium text-4xl text-color-3 text-center uppercase;
+  @apply max-w-2xl mb-10 text-center animate-pulse font-neueKabel mt-10 font-medium text-4xl text-color-3 uppercase;
 }

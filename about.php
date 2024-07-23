@@ -11,6 +11,7 @@ $courses = get_field('lista_servico_5');
 $makeups = get_field('lista_servico_6');
 
 ?>
+<main>
 <section id="sess1__about">
   <div class="about__banner_wrapper">
     <img src="<?= the_field('banner') ?>" alt="" class="about__banner_item">
@@ -34,11 +35,11 @@ $makeups = get_field('lista_servico_6');
 </section>
 <section id="sess3__about">
   <div class="sess3__content-wrapper">
-    <h2 class="sess3__about-title" data-anima="scroll"><?= the_field('titulo_2')  ?></h2>
-    <div id="sess3__photos" class="splide py-12">
-      <div class="splide__track ">
-        <ul class="splide__list ">
-          <?php foreach($photos as $photo) { ?>
+        <h2 class="sess3__about-title" data-anima="scroll"><?= the_field('titulo_2')  ?></h2>
+        <div id="sess3__photos" class="splide py-12">
+        <div class="splide__track ">
+            <ul class="splide__list ">
+            <?php foreach($photos as $photo) { ?>
             <li class="splide__slide photo__wrapper">
               <img src="<?= $photo['foto'] ?>" alt="fotos da nany com clientes.">
               <div class="heart__wrapper">
@@ -55,9 +56,9 @@ $makeups = get_field('lista_servico_6');
   </div>
 </section>
 <section id="sess4__about">
-  <div class="accordion__wrapper" data-anima="scroll">
+<div class="accordion__wrapper" data-anima="scroll">
     <h2 class="services__titles"><?= the_field('titulo_3')?></h2>
-    <div id="accordion-open-1" data-accordion="open" class="container mx-auto px-8">
+<div id="accordion-open-1" data-accordion="open" class="container mx-auto px-8">
     <h2 id="accordion-open-heading-1">
         <button type="button" class="accordion-title" data-accordion-target="#accordion-open-body-1" aria-expanded="true" aria-controls="accordion-open-body-1">
             <span><?= the_field('sub_titulo_1')?></span>
@@ -221,7 +222,7 @@ $makeups = get_field('lista_servico_6');
     <h2 class="sess6__about-title"><?= the_field('titulo_4')?></h2>
     <a href="<?= the_field('cta_link_2')?>" class="cta__btn"><?= the_field('cta_2')?></a>
 </section>
-
+</main>
 
 
 <?php get_footer(); ?>

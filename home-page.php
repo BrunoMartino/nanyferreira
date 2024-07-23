@@ -6,6 +6,7 @@ $banners = get_field('sess1_slides');
 $data = [];
 $data['posts'] = format_posts(get_field("blogposts_home"));
 ?>
+<main>
 <section id="sess1">
   <div id="banner__slide" class="splide">
     <div class="splide__track">
@@ -101,7 +102,6 @@ $data['posts'] = format_posts(get_field("blogposts_home"));
 <section id="sess8">
   <h2 class="sess8__title"><?= the_field('sess_6_title')  ?></h2>
   <a href="<?= the_field('sess_6_cta_link')  ?>" class="cta__btn"><?= the_field('sess_6_cta')  ?></a>  
-
 </section>
-
+</main>
 <?php get_footer(); ?>
