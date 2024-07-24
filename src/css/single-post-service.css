@@ -3,10 +3,10 @@
   @apply w-screen h-[75vh];
 }
 .services__title {
-  @apply container mx-auto text-4xl font-neueKabel font-bold uppercase flex h-full items-center;
+  @apply container mx-auto text-4xl font-neueKabel font-bold uppercase flex h-full items-end;
 }
 .services__title h1 {
-  @apply text-color-4 bg-color-1 py-3 px-6 rounded-full ml-8;
+  @apply text-color-4 bg-color-1 py-3 px-6 rounded-full ml-8 max-w-max;
 }
 /*control sess2 styles in services template*/
 #sess2__services {
