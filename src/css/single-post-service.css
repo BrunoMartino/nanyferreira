@@ -6,7 +6,7 @@
   @apply container mx-auto text-4xl font-neueKabel font-bold uppercase flex h-full items-end;
 }
 .services__title h1 {
-  @apply text-color-4 bg-color-1 py-3 px-6 rounded-full ml-8 max-w-max;
+  @apply text-color-4 bg-color-1 py-3 px-6 rounded-full mx-8 max-w-max mb-8;
 }
 /*control sess2 styles in services template*/
 #sess2__services {
