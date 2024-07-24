@@ -53,7 +53,7 @@
   @apply flex flex-col-reverse lg:flex-row justify-center gap-8 lg:justify-evenly items-center;
 }
 .about__img img {
-  @apply max-w-sm md:max-w-xl lg:max-w-2xl h-full object-cover rounded-full;
+  @apply w-[24rem] md:w-[36rem] lg:w-[42rem] h-full object-cover rounded-full;
 }
 .about__content {
   @apply max-w-sm md:max-w-xl font-neueKabel flex flex-col;

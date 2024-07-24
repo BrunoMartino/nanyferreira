@@ -21,25 +21,25 @@
 .about__mosaic-container.onShow,
 .sess2__services-wrapper__img.onShow,
 .sess3__services-wrapper__content.onShow {
-  animation: show-left 0.8s forwards;
+  animation: show-left 0.5s forwards;
 }
 .about__content.onShow,
 .sess2__about-content.onShow,
 .accordion__wrapper.onShow,
 .sess2__services-wrapper__content.onShow,
 .services__mosaic-container {
-  animation: show-right 0.8s forwards;
+  animation: show-right 0.5s forwards;
 }
 .about__img.onShow,
 .sess2__about-img.onShow,
 .sess3__services-wrapper__img.onShow {
-  animation: fall 1s forwards;
+  animation: fall 0.5s forwards;
 }
 .social__wrapper.onShow,
 .sess3__about-title.onShow,
 #sess2__services h2.onShow,
 .sess7__services-wrapper.onShow {
-  animation: show-up 0.8s forwards;
+  animation: show-up 0.5s forwards;
 }
 @keyframes show-right {
   from {

@@ -23,7 +23,7 @@ footer {
   @apply container mx-auto px-8 flex flex-col justify-center items-start gap-8 md:flex-row md:flex-wrap md:justify-evenly lg:items-center text-color-0 border-b-2 border-b-[#f6f2ff] pb-12 font-neueKabel;
 }
 .footer__wrapper img {
-  @apply w-80 md:w-48 h-full object-cover;
+  @apply w-48 h-full object-cover;
 }
 #menu-menu__footer li a {
   @apply flex w-full text-xl uppercase text-color-1 font-medium mb-2;

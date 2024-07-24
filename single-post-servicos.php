@@ -9,13 +9,20 @@ $testmonials = get_field('depoimentos');
 $faq = get_field('faq')
 ?>
 <main>
-  <section id="sess1__services"
-  style="
-    background: url('<?= the_field('banner_desk') ?>');
+  <style>
+    #sess1__services {
+    background: url('<?= the_field('banner_mobile') ?>');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    ">>
+    }
+    @media(min-width:1024px) {
+      #sess1__services {
+    background: url('<?= the_field('banner_desk') ?>');
+    }
+    }
+  </style>
+  <section id="sess1__services">
     <div class="services__title"><h1><?= get_the_title($post_id) ?></h1></div>
   </section>
   <section id="sess2__services">

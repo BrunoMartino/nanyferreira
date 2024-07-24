@@ -99,7 +99,7 @@
   @apply border-y-2 border-y-gray-200 flex flex-col md:flex-row justify-between items-center pt-10 pb-12;
 }
 .sess6__services-content h3 {
-  @apply uppercase font-neueKabel font-semibold text-center lg:text-left text-4xl text-color-2 mb-6 md:mb-0 animate-pulse;
+  @apply uppercase font-neueKabel font-semibold text-center lg:text-left text-4xl text-color-2 mb-6 md:mb-0 animate-pulse max-w-md;
 }
 .sess6__services-content p {
   @apply max-w-md text-center md:text-left;
