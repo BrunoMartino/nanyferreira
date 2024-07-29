@@ -66,7 +66,7 @@ if (photoSlide) {
   });
   photos.mount();
 }
-
+/*control testimonials slides service template page*/
 const testimonialSlide = document.getElementById("testmonial__slide");
 
 if (testimonialSlide) {
@@ -94,4 +94,51 @@ if (testimonialSlide) {
     },
   });
   testimonial.mount();
+}
+
+/* control slides in courses page */
+const coursesSess1Slides = document.getElementById("courses__slide");
+const coursesSess2Slides = document.getElementById("courses__slide-about");
+const coursesSess3Slides = document.getElementById("courses__slide-topics");
+const coursesSess4Slides = document.getElementById("courses__slide-teachers");
+
+if (coursesSess1Slides) {
+  const coursesSlides = new Splide(coursesSess1Slides, {
+    type: "loop",
+    rewind: true,
+    arrows: true,
+    pagination: true,
+    autoplay: true,
+  });
+  coursesSlides.mount();
+}
+if (coursesSess2Slides) {
+  const coursesSlides = new Splide(coursesSess2Slides, {
+    type: "loop",
+    rewind: true,
+    arrows: true,
+    pagination: true,
+    autoplay: true,
+  });
+  coursesSlides.mount();
+}
+if (coursesSess3Slides) {
+  const coursesSlides = new Splide(coursesSess3Slides, {
+    type: "loop",
+    rewind: true,
+    arrows: true,
+    pagination: true,
+    autoplay: true,
+  });
+  coursesSlides.mount();
+}
+if (coursesSess4Slides) {
+  const coursesSlides = new Splide(coursesSess4Slides, {
+    type: "loop",
+    rewind: true,
+    arrows: true,
+    pagination: true,
+    autoplay: true,
+  });
+  coursesSlides.mount();
 }

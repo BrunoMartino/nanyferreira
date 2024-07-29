@@ -32,6 +32,13 @@
 .splide__pagination__page.is-active {
   background: #685797;
 }
+/*controls arrows in splide*/
+button.splide__arrow {
+  @apply bg-color-2;
+}
+button.splide__arrow > svg {
+  @apply fill-[#0a041c];
+}
 /*reusable class for cta button*/
 .cta__btn {
   @apply bg-[#ddd5f3] py-3 px-5 text-color-4 font-neueKabel font-medium rounded-full uppercase max-w-max hover:text-white hover:bg-[#685797];

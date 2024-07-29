@@ -99,9 +99,11 @@ $data['posts'] = format_posts(get_field("blogposts_home"));
   <h2 class="sess7__title"><?= the_field('sess_5_title')  ?></h2>
   <div class="social__wrapper" data-anima="scroll">
     <div class="social__container">
-    <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
+    <?php echo do_shortcode('[feed_them_social cpt_id=2837]'); ?>
     </div>
-     <a href="<?= the_field('sess_5_cta_link')  ?>" class="cta__btn"><?= the_field('sess_5_cta')  ?></a>     
+    <div class="social__cta">
+      <a href="<?= the_field('sess_5_cta_link')  ?>" class="cta__btn"><?= the_field('sess_5_cta')  ?></a>  
+    </div>
   </div>
 </section>
 <section id="sess8">

@@ -1,0 +1,210 @@
+/*styles for sess1 courses page*/
+#sess1__courses {
+  @apply pt-12;
+}
+#courses__slide .splide__track,
+#courses__slide-topics .splide__track,
+#courses__slide-teachers .splide__track {
+  @apply pb-8;
+}
+.course__slide-wrapper {
+  @apply flex flex-col lg:flex-row lg:justify-center bg-color-1;
+}
+.course__slide-content {
+  @apply pt-24 pb-14 px-16 lg:pl-36 xl:pl-64 font-neueKabel lg:w-1/2;
+}
+.course__slide-content h2 {
+  @apply flex gap-2 items-center uppercase font-medium;
+}
+.course__slide-content h2 span {
+  @apply border-2 border-black  rounded-full py-2 px-6;
+}
+.course__slide-content h1 {
+  @apply font-bold uppercase text-3xl py-5;
+}
+.course__slide-content-description {
+  @apply max-w-md;
+}
+.course__slide-img-desk {
+  @apply hidden lg:block w-1/2 h-[50vh] object-cover;
+}
+.course__slide-img-mobile {
+  @apply lg:hidden w-screen h-[25vh] object-cover;
+}
+/*styles for sess2 courses page*/
+
+#sess2__courses {
+  @apply pt-20;
+}
+#courses__slide-about {
+  @apply container lg:max-w-7xl lg:mx-auto;
+}
+#sess2__courses h2 {
+  @apply text-center font-neueKabel text-2xl text-color-2 px-8 uppercase font-bold;
+}
+.course__about-content {
+  @apply px-16 py-8 text-center font-neueKabel;
+}
+.course__about-content h3 {
+  @apply text-3xl font-bold text-color-2 mb-6 uppercase;
+}
+.course__about-content p {
+  @apply text-xl mb-6 max-w-5xl mx-auto;
+}
+.sess2__courses-about-img {
+  @apply max-w-sm h-full md:max-w-lg mx-auto;
+}
+/*styles for sess3 courses page*/
+
+#sess3__courses {
+  @apply bg-[#DFD8EB] pt-20;
+}
+.sess3__courses-title {
+  @apply text-center font-neueKabel text-2xl text-color-4 px-8 uppercase font-bold;
+}
+#courses__slide-topics {
+  @apply container mx-auto lg:max-w-7xl flex justify-center;
+}
+.course__topics-content {
+  @apply px-16 font-neueKabel py-12;
+}
+.course__topics-content h3 {
+  @apply text-3xl text-center font-bold text-color-4 mb-6 uppercase;
+}
+.topics__content {
+  @apply grid grid-cols-1 gap-4 mx-auto max-w-max md:gap-x-8 lg:gap-x-12 md:grid-cols-2 lg:px-8;
+}
+.topics__content p {
+  @apply text-lg lg:text-2xl max-w-max flex items-center gap-2 text-center;
+}
+.topics__content p:nth-child(odd):before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  display: block;
+  background: url("../imgs/empty-heart.svg");
+  background-repeat: no-repeat;
+}
+.topics__content p:nth-child(even):before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  display: block;
+  background: url("../imgs/filled-heart.svg");
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .topics__content p:nth-child(1):before,
+  .topics__content p:nth-child(4):before,
+  .topics__content p:nth-child(5):before,
+  .topics__content p:nth-child(8):before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    display: block;
+    background: url("../imgs/empty-heart.svg");
+    background-repeat: no-repeat;
+  }
+  .topics__content p:nth-child(2):before,
+  .topics__content p:nth-child(3):before,
+  .topics__content p:nth-child(6):before,
+  .topics__content p:nth-child(7):before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    display: block;
+    background: url("../imgs/filled-heart.svg");
+    background-repeat: no-repeat;
+  }
+}
+/*styles for sess4 courses page*/
+
+#sess4__courses {
+  @apply py-20;
+}
+#courses__slide-teachers {
+  @apply container mx-auto lg:max-w-7xl  flex justify-center;
+}
+.course__teachers-content {
+  @apply flex flex-col-reverse items-center justify-center lg:flex-row-reverse  lg:items-start lg:gap-20;
+}
+
+.course__teacher-img h2 {
+  @apply text-center font-neueKabel text-2xl text-color-2 uppercase font-bold mb-16 lg:hidden;
+}
+.course__teacher-img img {
+  @apply w-[320px] h-[320px] lg:w-[480px] lg:h-[480px] rounded-full;
+}
+.course__teacher-description {
+  @apply font-neueKabel px-8 text-center mt-16 lg:max-w-md lg:text-left;
+}
+.course__teacher-description h2 {
+  @apply hidden lg:block text-4xl text-color-2 uppercase font-bold mb-6;
+}
+.course__teacher-description h3 {
+  @apply text-xl font-bold mb-6 lg:text-3xl;
+}
+.course__teacher-description p {
+  @apply text-xl;
+}
+/*styles for sess5 courses page*/
+
+#sess5__courses {
+  @apply py-20 bg-color-2;
+}
+.sess5__courses-wrapper {
+  @apply container mx-auto flex flex-col gap-20;
+}
+.sess5__courses-wrapper h3 {
+  @apply uppercase font-neueKabel font-bold text-center text-2xl md:text-4xl text-color-2 py-8;
+}
+.courses__card-wrapper {
+  @apply bg-white container mx-auto rounded-3xl lg:max-w-6xl px-8 lg:px-24;
+}
+.course__card-content {
+  @apply border-y-2 border-y-gray-200 flex flex-col md:flex-row justify-between items-center pt-10 pb-12;
+}
+.course__card-content h3 {
+  @apply uppercase font-neueKabel font-semibold text-center lg:text-left text-4xl text-color-2 mb-6 md:mb-0 animate-pulse max-w-md;
+}
+.course__card-content p {
+  @apply max-w-md text-center md:text-left;
+}
+.course__card-cta {
+  @apply flex justify-between items-center pt-8 pb-12;
+}
+.course__card-cta p {
+  @apply uppercase font-neueKabel font-semibold text-center text-xl md:text-3xl text-color-2;
+}
+.course__card-cta a {
+  @apply animate-bounce;
+}
+
+/*styles for sess6 courses page*/
+
+#sess6__courses {
+  @apply pt-20;
+}
+.sess6__courses-wrapper {
+  @apply container mx-auto max-w-6xl px-8;
+}
+.sess6__courses-wrapper h2:first-child {
+  @apply uppercase font-neueKabel font-bold text-center text-2xl md:text-4xl text-color-2 py-8;
+}
+#sess6__courses .accordion-title {
+  @apply flex items-center justify-between w-full p-5 rounded-3xl text-xl font-normal capitalize font-neueKabel mb-8;
+  background-color: #ddd5f3 !important;
+  color: #0a041c !important;
+}
+#sess6__courses .accordion-body {
+  @apply bg-color-2 text-color-4 px-8 py-4 my-4;
+}
+
+/*styles for sess7 courses page*/
+
+#sess7__courses {
+  @apply container mx-auto pt-10 pb-20 flex justify-center;
+}
+#sess7__courses a {
+  @apply animate-bounce;
+}

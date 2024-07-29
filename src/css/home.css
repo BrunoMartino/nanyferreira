@@ -120,10 +120,13 @@
   @apply font-neueKabel mt-10 font-medium text-4xl text-color-4 text-center uppercase;
 }
 .social__wrapper {
-  @apply container mx-auto mt-8 bg-gray-50 py-12 px-8 flex flex-col justify-center items-center;
+  @apply container mx-auto mt-8 bg-gray-50 py-12 px-8;
 }
-.social__wrapper .cta__btn {
-  @apply animate-bounce;
+.social__cta {
+  @apply py-6 flex justify-center items-center;
+}
+.social__cta .cta__btn {
+  @apply animate-bounce text-center;
 }
 #sess8 {
   @apply pt-12 pb-24 px-4 flex flex-col justify-center items-center container mx-auto;
