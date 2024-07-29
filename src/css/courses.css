@@ -133,7 +133,7 @@
   @apply text-center font-neueKabel text-2xl text-color-2 uppercase font-bold mb-16 lg:hidden;
 }
 .course__teacher-img img {
-  @apply w-[320px] h-[320px] lg:w-[480px] lg:h-[480px] rounded-full;
+  @apply w-[320px] h-[320px] lg:w-[480px] lg:h-[480px] rounded-full object-cover;
 }
 .course__teacher-description {
   @apply font-neueKabel px-8 text-center mt-16 lg:max-w-md lg:text-left;

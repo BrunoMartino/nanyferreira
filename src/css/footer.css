@@ -56,15 +56,20 @@ footer {
 .news__title img {
   @apply w-6 h-6;
 }
-
-#wpcf7-f2753-o1 > form {
-  @apply flex flex-col items-start;
+#footer__newsletter,
+.mc4wp-response {
+  @apply py-4;
 }
-#wpcf7-f2753-o1 > form > p:nth-child(2) > span > input {
+
+.form-input {
+  color: black !important;
   @apply rounded-full mt-4;
 }
-
-#wpcf7-f2753-o1 > form > p:nth-child(3) > input {
+.form-input:focus {
+  outline: transparent !important;
+  outline-offset: 0px !important;
+}
+.form-btn {
   @apply bg-[#ddd5f3] mt-4 py-2 px-3 text-color-4 text-xs font-neueKabel font-medium rounded-full uppercase max-w-max hover:text-white hover:bg-[#685797] justify-self-end;
 }
 .footer__end {
